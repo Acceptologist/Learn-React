@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+}
+.top-container{
+  text-align: center;
+  background-color: #E4F9F5;
+  padding-top: 10px;
+}
+.middle-container{
+  text-align: center;
+}
+.bottom-container{
+  text-align: center;
+}
+.coffee-table{
+  margin-right: auto;
+  margin-left: auto;
+}
+.my-info{
+  margin-top: 0;
+  font-family: 'Satisfy', cursive;
+  /* font-family: 'Lobster', cursive; */
+  color:  #126e82;
+  font-size: 2rem;
+}
+h1{
+  margin-top: 0;
+}
+h2{
+  font-size: 2rem;
+}
+.bottom-cloud{
+  position: absolute;
+}
+.top-cloud{
+  position: relative;
+  left: 240px;
+}
+.pro{
+  font-family: 'Pacifico', cursive;
+}
+.problem-solving{
+  width: 350px;
+}
+.web{
+  width: 350px;
+}
+.coffee{
+    height: 100px;
+}

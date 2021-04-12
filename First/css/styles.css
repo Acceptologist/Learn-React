@@ -1,0 +1,25 @@
+body {
+    background-color: #96bb7c;
+    color: #184d47;
+    font-family: system-ui;
+    font-style: oblique;
+    font-weight: 999;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border-top: 7px dotted #c64756;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    width: 5%;
+}
+
+h1,
+h3 {
+    color: #fad586;
+}
