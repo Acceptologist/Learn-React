@@ -1,62 +1,94 @@
-body{
+body {
   margin: 0;
 }
-.top-container{
+
+.top-container {
   text-align: center;
   background-color: #E4F9F5;
   padding-top: 10px;
 }
-.middle-container{
+
+.middle-container {
   text-align: center;
 }
-.bottom-container{
+
+.bottom-container {
   text-align: center;
 }
-.coffee-table{
+
+.coffee-table {
   margin-right: auto;
   margin-left: auto;
 }
-.my-info{
+
+.my-info {
   margin-top: 0;
   font-family: 'Satisfy', cursive;
   /* font-family: 'Lobster', cursive; */
-  color:  #66BFBF;
+  color: #66BFBF;
   font-size: 2rem;
 }
-.subtitle{
+
+.subtitle {
   font-weight: normal;
-   line-height:2;
+  line-height: 2;
 }
-h1{
+
+h1 {
   color: #66BFBF;
   margin: 15px;
 }
-h2{
+
+h2 {
   color: #66BFBF;
   font-size: 2rem;
 }
-h3{
+
+h3 {
   color: #11999E;
 }
-a{
+
+a {
   color: #11999E;
 }
-.bottom-cloud{
+
+.bottom-cloud {
   position: absolute;
 }
-.top-cloud{
+
+.top-cloud {
   position: relative;
   left: 270px;
 }
-.pro{
+
+.pro {
   font-family: 'Pacifico', cursive;
 }
-.problem-solving{
-  width: 350px;
+
+.problem-solving {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
 }
-.web{
-  width: 350px;
+
+.web {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
 }
-.coffee{
-    height: 100px;
+
+.coffee {
+  height: 100px;
+}
+.first-skill{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.second-skill{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
