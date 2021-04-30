@@ -1,3 +1,7 @@
+\
+html,body{
+  height: 100%;
+}
 body{
   margin: 0;
   background-color: hsl(233, 47%, 7%);
@@ -6,7 +10,7 @@ body{
 img{
   width: 100%;
   height: 100%;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 .652rem .652rem 0;
 }
 span{
   color: hsl(277, 64%, 61%);
@@ -19,46 +23,44 @@ span{
  transform: translate(-50%, -50%);
   background-color: hsl(244, 38%, 16%);
   color: hsla(0, 0%, 100%, 0.75);
-  border-radius: 10px;
+  border-radius: .625rem;
 }
 .left-component{
   width: 50%;
   display: inline-block;
    float:left;
-   clear:left;
 }
 .right-component{
   width: 50%;
   height: 100%;
   display: inline-block;
   float:right;
-  clear:right
 }
 .text-content{
   width: 80%;
-  margin: 50px auto 0 auto;
+  margin: 3.1rem auto 0 auto;
 }
 .table{
-  margin-top: 50px;
+  margin-top: 3.1rem;
   width: 100%;
   text-align: left;
 }
 .cell{
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 2.5rem;
 }
 h3{
-  font-size: 18px;
+  font-size: 1rem;
   color: hsl(0, 0%, 100%);
   font-weight: bolder;
-  margin-bottom: 5px;
+  margin-bottom: .3rem;
 }
 h6{
-  font-size: 9px;
+  font-size: .7rem;
   color: hsla(0, 0%, 100%, 0.6);
   font-family: 'Lexend Deca', sans-serif;
   text-transform: uppercase;
-  margin-top: 5px;
+  margin-top: .3rem;
 }
 h1{
   color: hsl(0, 0%, 100%);
@@ -66,6 +68,6 @@ h1{
   font-family: 'Inter', sans-serif;
 }
 p{
-  font-size: 11px;
+  font-size: .8rem;
   width: 80%;
 }
