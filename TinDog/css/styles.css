@@ -52,6 +52,7 @@ h1{
 .feature{
   text-align: center;
   line-height: 1.5;
+  padding: 3%;
 }
 .feature-icon{
   color: #ef8172;
@@ -66,5 +67,7 @@ h1{
   font-weight: bold;
 }
 .feature-description{
-  color: #8f8f8f
+  color: #8f8f8f;
+  padding: 0 8%;
+  font-weight:500;
 }
