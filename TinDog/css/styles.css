@@ -33,6 +33,9 @@ h1 {
   #title {
     text-align: center;
   }
+  .download-button {
+    width: 9rem
+  }
   .title-image {
     text-align: center;
     right: 0;
@@ -40,6 +43,7 @@ h1 {
 
   .title-image-phone {
     transform: rotate(0);
+    width: 50%;
     position: static;
   }
 }
