@@ -67,6 +67,10 @@ h1 {
 }
 
 @media (max-width:991px) {
+
+  .navbar-brand {
+    font-size: 3.5rem;
+  }
   .nav-item {
     padding: 0 18px;
     font-size: 3rem;
