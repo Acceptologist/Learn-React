@@ -29,7 +29,7 @@ h1 {
   position: absolute;
 }
 
-@media (max-width:1024px) {
+@media (max-width:991px) {
   #title {
     text-align: center;
   }
@@ -64,6 +64,17 @@ h1 {
 /* Download Button */
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+@media (max-width:991px) {
+  .nav-item {
+    padding: 0 18px;
+    font-size: 3rem;
+    font-weight: lighter;
+  }
+  .navbar-toggler{
+    width: 6rem;
+  }
 }
 
 /* Features */
