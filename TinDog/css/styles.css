@@ -77,10 +77,11 @@ h1 {
     font-weight: lighter;
   }
   .navbar-toggler{
-    width: 9rem;
+    width: 5rem;
   }
   .navbar-toggler-icon{
-    width: 9rem;
+    width: 5rem;
+    height: 5rem;
   }
 }
 
