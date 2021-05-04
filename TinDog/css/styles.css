@@ -34,7 +34,10 @@ h1 {
     text-align: center;
   }
   .download-button {
-    width: 12rem
+    width: 13rem;
+    height :6rem;
+      margin: 5% 0% 5% 0;
+      font-size: 1.6rem;
   }
   .title-image {
     text-align: center;
