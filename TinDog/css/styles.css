@@ -79,6 +79,9 @@ h1 {
   .navbar-toggler{
     width: 6rem;
   }
+  .navbar-toggler-icon{
+    width: 9rem;
+  }
 }
 
 /* Features */
