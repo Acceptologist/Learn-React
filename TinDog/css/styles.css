@@ -192,8 +192,42 @@ small{
   color: #fff;
   padding: 3% 10%;
 }
+/* Footer Section */
+
 #footer{
-  padding: 10% 0 2%;
+  padding: 1% 0 2%;
   text-align: center;
 
+}
+.contact{
+
+}
+.contact-button{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.contact-button:hover{
+  width: 200px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+}
+.contact-icon-item{
+  font-size: 1.5rem;
+  line-height: 2.5;
+}
+.contact-item-title{
+  font-weight: 500;
+  margin-left: 10px;
 }
