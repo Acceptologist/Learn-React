@@ -160,3 +160,26 @@ line-height: 1.5;
   width: 13%;
   margin: 0 2% 5%;
 }
+
+/* Pricing Section */
+
+#pricing{
+  color: #dc3545;
+  text-align: center;
+  line-height: 4;
+  padding: 7%;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.pricing-description{
+  font-size: 1.5rem;
+}
+h4{
+  color: #fff;
+}
+.card-header{
+  background-color: #dc3545;
+}
+small{
+  color: #ef8172;
+}
