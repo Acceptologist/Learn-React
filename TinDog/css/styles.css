@@ -183,3 +183,17 @@ h4{
 small{
   color: #ef8172;
 }
+
+/* Call to Action Section  */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 3% 10%;
+}
+#footer{
+  padding: 10% 0 2%;
+  text-align: center;
+
+}
