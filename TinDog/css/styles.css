@@ -215,6 +215,22 @@ small{
   width: 200px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
+.contact-button:nth-child(1):hover .contact-icon-item{
+ color: #1da1f2;
+ transition: all 0.3s ease-in-out;
+}
+.contact-button:nth-child(2):hover .contact-icon-item{
+color: #4267b2;
+transition: all 0.3s ease-in-out;
+}
+.contact-button:nth-child(3):hover .contact-icon-item{
+color: #e1306c;
+transition: all 0.3s ease-in-out;
+}
+.contact-button:nth-child(4):hover .contact-icon-item{
+color:  #ef8172;
+transition: all 0.3s ease-in-out;
+}
 
 .contact-icon{
   display: inline-block;
