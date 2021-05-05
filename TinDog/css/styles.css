@@ -203,16 +203,21 @@ small{
 
 }
 .contact-button{
+  display: inline-block;
   height: 60px;
   width: 60px;
   border-radius: 50px;
   cursor: pointer;
   overflow: hidden;
-  display: inline-block;
   transition: all 0.3s ease-in-out;
+}
+.contact-icon-item{
+  font-size: 1.5rem;
+  line-height: 2.5!important;
 }
 .contact-button:hover{
   width: 200px;
+  transition: all 0.3s ease-in-out;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .contact-button:nth-child(1):hover .contact-icon-item{
@@ -231,17 +236,12 @@ transition: all 0.3s ease-in-out;
 color:  #ef8172;
 transition: all 0.3s ease-in-out;
 }
-
 .contact-icon{
   display: inline-block;
   height: 60px;
   width: 60px;
   text-align: center;
   border-radius: 50px;
-}
-.contact-icon-item{
-  font-size: 1.5rem;
-  line-height: 2.5;
 }
 .contact-item-title{
   font-weight: 500;
