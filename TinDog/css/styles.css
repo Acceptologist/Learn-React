@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  user-select: none; 
 }
 
 #title {
@@ -199,9 +200,6 @@ small{
   text-align: center;
 
 }
-.contact{
-
-}
 .contact-button{
   display: inline-block;
   height: 60px;
@@ -246,4 +244,7 @@ transition: all 0.3s ease-in-out;
 .contact-item-title{
   font-weight: 500;
   margin-left: 10px;
+}
+.copyright{
+  user-select: none;
 }
