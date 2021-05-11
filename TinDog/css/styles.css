@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  user-select: none; 
+  user-select: none;
 }
 
 #title {
@@ -200,7 +200,7 @@ small{
   text-align: center;
 
 }
-.contact-button{
+.social-button{
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -209,39 +209,39 @@ small{
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
-.contact-icon-item{
+.social-icon-item{
   font-size: 1.5rem;
   line-height: 2.5!important;
 }
-.contact-button:hover{
+.social-button:hover{
   width: 200px;
   transition: all 0.3s ease-in-out;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
-.contact-button:nth-child(1):hover .contact-icon-item{
+.social-button:nth-child(1):hover .social-icon-item{
  color: #1da1f2;
  transition: all 0.3s ease-in-out;
 }
-.contact-button:nth-child(2):hover .contact-icon-item{
+.social-button:nth-child(2):hover .social-icon-item{
 color: #4267b2;
 transition: all 0.3s ease-in-out;
 }
-.contact-button:nth-child(3):hover .contact-icon-item{
+.social-button:nth-child(3):hover .social-icon-item{
 color: #e1306c;
 transition: all 0.3s ease-in-out;
 }
-.contact-button:nth-child(4):hover .contact-icon-item{
+.social-button:nth-child(4):hover .social-icon-item{
 color:  #ef8172;
 transition: all 0.3s ease-in-out;
 }
-.contact-icon{
+.social-icon{
   display: inline-block;
   height: 60px;
   width: 60px;
   text-align: center;
   border-radius: 50px;
 }
-.contact-item-title{
+.social-item-title{
   font-weight: 500;
   margin-left: 10px;
 }
