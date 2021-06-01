@@ -5,14 +5,23 @@ body {
   text-align: center;
   background-color: #011F3F;
 }
+@media screen and (min-width: 900px){
+h2{
+   display: none;
+}
+img{
+   display: none;
+}
+}
 h2{
   font-family: 'Press Start 2P', cursive;
-  font-size: 2rem;
+  font-size: 4rem;
   margin:  5%;
   color: #FEF2BF;
 }
 img{
-  width: 200px;
+  margin-top: 50x;
+  width: 250px;
 }
 
 #level-title {
@@ -21,7 +30,11 @@ img{
   margin:  5%;
   color: #FEF2BF;
 }
-
+@media screen and (max-width: 900px){
+  #level-title {
+    display: none;
+  }
+}
 .container {
   display: block;
   width: 50%;
