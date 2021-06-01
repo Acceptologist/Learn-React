@@ -6,11 +6,11 @@ var idx=0;
 
 
 $(document).keypress(function(event) {
-  var pressedKey = event.key;
   if (!isAGameRunning) {
     isAGameRunning=true;
     index=0;
     level=1;
+    idx=0;
     buttonsSequence=[];
     $("h1").text("Level "+level);
     buttonsSequence.push(getRandomButton());
@@ -109,3 +109,22 @@ function gameoverSound(){
   var audio = new Audio('sounds/wrong.mp3');
   audio.play();
 }
+function pressedImage(img){
+  img.classList.add("img-pressed");
+  setTimeout(function () {
+    img.classList.remove("img-pressed");
+}, 300);
+}
+$("img").click(function(){
+  pressedImage(this);
+  if (!isAGameRunning) {
+    isAGameRunning=true;
+    index=0;
+    level=1;
+    idx=0;
+    buttonsSequence=[];
+    $("h1").text("Level "+level);
+    buttonsSequence.push(getRandomButton());
+    playLevelSequence();
+  }
+});
