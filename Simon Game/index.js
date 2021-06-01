@@ -115,7 +115,7 @@ function pressedImage(img){
     img.classList.remove("img-pressed");
 }, 300);
 }
-$("img").on( "tap", function(){
+$("img").on( "click", function(){
   pressedImage(this);
   if (!isAGameRunning) {
     isAGameRunning=true;
