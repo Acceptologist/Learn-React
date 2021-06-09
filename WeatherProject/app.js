@@ -25,9 +25,10 @@ https.get(url,function(response){
   const weatherTemp=weatherData.main.temp;
   const icon=weatherData.weather[0].icon;
   const imageURL="http://openweathermap.org/img/wn/"+icon+"@2x.png";
+  res.write("<body style='text-align: center;background-color: #1e3250;background:url(https://media.wired.co.uk/photos/606dba1c9a15f73a597a2aa1/master/w_1600%2Cc_limit/weather.jpg);background-repeat: no-repeat;background-size:100%'>");
   res.write("<p><img src="+imageURL+"></p>");
-  res.write("<p>The Weather is Currently "+weatherDescription+".</p>");
-  res.write("<div><h1>The Teampruture in "+cityName+" is "+weatherTemp+"<span>&#176;</span>.</h1></div>");
+  res.write("<p style='color:white;font-size:1.3rem;'>The Weather is Currently "+weatherDescription+".</p>");
+  res.write("<div><h1 style='color:white;'>The Teampruture in "+cityName+" is "+weatherTemp+"<span>&#176;</span>.</h1></div>");
   res.send();
   });
 
