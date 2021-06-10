@@ -29,6 +29,7 @@ https.get(url,function(response){
   res.write("<p><img src="+imageURL+"></p>");
   res.write("<p style='color:white;font-size:1.3rem;'>The Weather is Currently "+weatherDescription+".</p>");
   res.write("<div><h1 style='color:white;'>The Temperature in "+cityName+" is "+weatherTemp+"<span>&#176;</span>.</h1></div>");
+  res.write("<div style='margin-top:4rem;'><a  href='http://localhost:3000/' style='text-decoration: none;background-color: yellow;border: 1px grey solid;border-radius:1rem;color: #1e3250;font-size: 1rem;font-weight: bolder; width:7rem;padding:1rem;cursor:pointer;'>Continue</a></div>");
   res.send();
   });
 
